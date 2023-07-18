@@ -6,6 +6,6 @@ public class Power_Modules {
         int a = scanner.nextInt();;
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-        System.out.println(a^b%c);
+        System.out.println((int) (Math.pow(a,b))%c);
     }
 }
